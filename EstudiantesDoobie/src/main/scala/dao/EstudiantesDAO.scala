@@ -26,4 +26,7 @@ object EstudiantesDAO {
       estudiantes.traverse(t => insert(t).transact(xa))
     }
   }
+
+  def obtenerTodos: ConnectionIO[List[(String, Int, Int, String)]] =
+    sql"SELECT nombre, edad, calificacion, genero FROM estudiantes".query[(String, Int, Int, String)].to[List]
 }
