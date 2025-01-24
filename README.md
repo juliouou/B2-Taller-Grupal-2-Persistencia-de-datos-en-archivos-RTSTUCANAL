@@ -9,5 +9,22 @@
   
   -Julio Cesar Maldonado 
   
+## Explicacion de la Actividad 
+Primero generamos el archivo csv para los datos de estudiantes:
 
-JDBC (Java Database Connectivity) es una API que permite a las aplicaciones en Java (y lenguajes basados en la JVM como Scala) interactuar con bases de datos relacionales. JDBC proporciona una interfaz estándar para conectar, ejecutar consultas y gestionar resultados en una base de datos.
+
+| **nombre**  | **edad** | **calificacion** | **genero**|
+|-------------|----------|------------------|-----------|
+|**Andres**|**10**|**20**|**M**|
+|**Ana**|**11**|**19**|**F**|
+|**Luis|**9**|**18**|**M**|
+|**Cecilia|**9**|**9**|**F**|
+|**Katy|**11**|**15**|**F**|
+|**Jorge**|**8**|**17**|**M**|
+|**Rosario**|**11**|**11**|**F**|
+|**Nieves**|**10**|**10**|**F**|
+|**Pablo**|**9**|**19**|**M**|
+|**Daniel**|**10**|**20**|**M**|
+
+
+
