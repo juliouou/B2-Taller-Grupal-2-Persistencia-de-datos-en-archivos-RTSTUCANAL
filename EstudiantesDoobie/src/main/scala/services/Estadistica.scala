@@ -1,17 +1,17 @@
 package services
 
-import models.Temperatura
-
+import models.Estudiantes
+/*
 object Estadistica{
-  def promedio(temperaturas:List[Temperatura]): Double = {
+  def promedio(temperaturas:List[Estudiantes]): Double = {
     temperaturas.map(_.temp_tarde).sum / temperaturas.length
   }
 
-  def maxima_temperatura(temperaturas:List[Temperatura]): Double = {
+  def maxima_temperatura(temperaturas:List[Estudiantes]): Double = {
     temperaturas.map(_.temp_tarde).max
   }
 
-  def desviacion_estandar(temperaturas:List[Temperatura]): Double = {
+  def desviacion_estandar(temperaturas:List[Estudiantes]): Double = {
     val x = temperaturas.map(_.temp_tarde)
     val N = temperaturas.length
     val promedio = x.sum / N
@@ -19,4 +19,4 @@ object Estadistica{
 
     math.sqrt(sumaCuadrados/N)
   }
-}
+}*/
